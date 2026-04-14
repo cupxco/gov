@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ministry of Home Affairs | Government of Cupx Nation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+        
+        body {
+            font-family: 'Roboto', system-ui, sans-serif;
+        }
+        
+        .service-card {
+            transition: all 0.3s ease;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+        }
+        
+        .emoji {
+            font-size: 2.75rem;
+            line-height: 1;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Top Bar -->
+    <div class="bg-[#003087] text-white text-xs py-1">
+        <div class="max-w-7xl mx-auto px-6 flex justify-between items-center">
+            <span>Government of Cupx Nation • Ministry of Home Affairs</span>
+            <a href="/m/" class="hover:underline">← All Ministries</a>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm border-b-2 border-[#FF9933]">
+        <div class="max-w-7xl mx-auto px-6 py-5">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center gap-4">
+                    <div class="w-14 h-14 bg-[#003087] text-white rounded-full flex items-center justify-center text-4xl border-4 border-[#FF9933]">
+                        🏠
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold text-[#003087]">Ministry of Home Affairs</h1>
+                        <p class="text-sm text-gray-500">Internal Security, Citizenship &amp; Public Order</p>
+                    </div>
+                </div>
+                
+                <div class="flex gap-3">
+                    <a href="/" class="bg-white border border-gray-300 hover:bg-gray-50 px-5 py-2.5 rounded-lg text-sm font-medium flex items-center gap-2">
+                        <i class="fas fa-home"></i> Home
+                    </a>
+                    <a href="/m/" class="bg-[#138808] hover:bg-green-700 text-white px-5 py-2.5 rounded-lg text-sm font-medium flex items-center gap-2">
+                        <i class="fas fa-building"></i> Ministries
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="bg-gradient-to-r from-[#003087] to-[#002266] text-white py-16">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="max-w-2xl">
+                <span class="inline-block bg-white/20 text-xs px-4 py-1 rounded-full mb-4">Security &amp; Governance Foundation</span>
+                <h2 class="text-5xl font-bold leading-tight mb-6">
+                    Protecting the Nation &amp; Its Citizens
+                </h2>
+                <p class="text-blue-100 text-lg">
+                    We manage citizenship, internal security, public order, emergency services, 
+                    and critical citizen documentation across the Cupx digital ecosystem.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="max-w-7xl mx-auto px-6 py-16">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+            
+            <!-- Left: About Ministry -->
+            <div class="lg:col-span-5">
+                <h3 class="text-3xl font-semibold text-[#003087] mb-6">About the Ministry</h3>
+                <div class="prose text-gray-600 leading-relaxed">
+                    <p class="mb-6">
+                        The Ministry of Home Affairs is one of the most important pillars of Cupx Nation. 
+                        It oversees citizenship matters, maintains public order in the digital space, 
+                        handles emergency responses, and coordinates with other ministries for national security.
+                    </p>
+                    <p>
+                        This ministry works closely with the Ministry of Identity &amp; Citizenship to ensure 
+                        every citizen's record in the `citizens` table is accurate and secure.
+                    </p>
+                </div>
+
+                <div class="mt-10 bg-white border border-gray-200 rounded-2xl p-8">
+                    <h4 class="font-semibold mb-4 flex items-center gap-2">
+                        <i class="fas fa-shield-alt text-[#138808]"></i>
+                        Core Responsibilities
+                    </h4>
+                    <ul class="space-y-4 text-sm">
+                        <li class="flex gap-3">
+                            <span class="text-[#138808] font-bold">→</span>
+                            Citizenship registration and verification
+                        </li>
+                        <li class="flex gap-3">
+                            <span class="text-[#138808] font-bold">→</span>
+                            Internal security and digital safety
+                        </li>
+                        <li class="flex gap-3">
+                            <span class="text-[#138808] font-bold">→</span>
+                            Emergency services coordination
+                        </li>
+                        <li class="flex gap-3">
+                            <span class="text-[#138808] font-bold">→</span>
+                            Public order and cyber safety
+                        </li>
+                        <li class="flex gap-3">
+                            <span class="text-[#138808] font-bold">→</span>
+                            Coordination with law enforcement
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Right: Key Services -->
+            <div class="lg:col-span-7">
+                <h3 class="text-3xl font-semibold text-[#003087] mb-8">Our Key Services</h3>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    
+                    <!-- Citizenship Services -->
+                    <div class="service-card bg-white border border-gray-200 rounded-2xl p-7">
+                        <div class="emoji mb-5">🪪</div>
+                        <h4 class="font-semibold text-xl mb-2">Citizenship &amp; idex Management</h4>
+                        <p class="text-gray-600 text-sm mb-6">
+                            Register as a citizen, update details, and manage your universal idex. 
+                            All records are stored in the official citizens table.
+                        </p>
+                        <a href="#" onclick="alert('Citizenship &amp; idex services coming soon! (Static demo)')" 
+                           class="text-[#003087] text-sm font-medium flex items-center gap-2 hover:gap-3 transition">
+                            Manage Citizenship <span>→</span>
+                        </a>
+                    </div>
+
+                    <!-- Emergency Services -->
+                    <div class="service-card bg-white border border-gray-200 rounded-2xl p-7">
+                        <div class="emoji mb-5">🚨</div>
+                        <h4 class="font-semibold text-xl mb-2">Emergency Services</h4>
+                        <p class="text-gray-600 text-sm mb-6">
+                            Quick access to emergency support — medical, security, or disaster response 
+                            linked with healthx and transport services.
+                        </p>
+                        <a href="#" onclick="alert('Emergency services portal coming soon!')" 
+                           class="text-[#003087] text-sm font-medium flex items-center gap-2 hover:gap-3 transition">
+                            Report Emergency <span>→</span>
+                        </a>
+                    </div>
+
+                    <!-- Public Order -->
+                    <div class="service-card bg-white border border-gray-200 rounded-2xl p-7">
+                        <div class="emoji mb-5">🛡️</div>
+                        <h4 class="font-semibold text-xl mb-2">Public Order &amp; Safety</h4>
+                        <p class="text-gray-600 text-sm mb-6">
+                            Report cyber incidents, platform misuse, or violations of Cupx ecosystem rules. 
+                            Maintain digital peace and order.
+                        </p>
+                        <a href="#" onclick="alert('Public order reporting coming soon!')" 
+                           class="text-[#003087] text-sm font-medium flex items-center gap-2 hover:gap-3 transition">
+                            Report Violation <span>→</span>
+                        </a>
+                    </div>
+
+                    <!-- Police & Law Enforcement -->
+                    <div class="service-card bg-white border border-gray-200 rounded-2xl p-7">
+                        <div class="emoji mb-5">👮</div>
+                        <h4 class="font-semibold text-xl mb-2">Digital Police Services</h4>
+                        <p class="text-gray-600 text-sm mb-6">
+                            File FIRs, track complaints, and access law enforcement support 
+                            for disputes that require official intervention.
+                        </p>
+                        <a href="#" onclick="alert('Digital police services coming soon!')" 
+                           class="text-[#003087] text-sm font-medium flex items-center gap-2 hover:gap-3 transition">
+                            Access Police Services <span>→</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick Note -->
+    <div class="bg-white py-12 border-t border-b">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <div class="max-w-lg mx-auto">
+                <p class="text-gray-600">
+                    The Ministry of Home Affairs works closely with the Ministry of Identity to keep 
+                    your <strong>citizens</strong> table and <strong>government_documents</strong> secure and up-to-date.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-[#003087] text-white py-12">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <p class="text-sm opacity-75">
+                Ministry of Home Affairs • Government of Cupx Nation<br>
+                Safeguarding the internal security and welfare of every citizen
+            </p>
+            <p class="text-xs mt-6 text-blue-300">
+                Static demo page for GitHub Pages • All links are placeholders for development
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        console.log("%cMinistry of Home Affairs page loaded", "color:#003087; font-weight:500");
+    </script>
+</body>
+  </html>
